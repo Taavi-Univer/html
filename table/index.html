@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      th {
+        background-color: antiquewhite;
+        padding-left: 0.2em;
+        text-align: left;
+      }
+      tfoot {
+        background-color: antiquewhite;
+      }
+      .skills {
+        margin-top: 1em;
+      }
+
+      .skills tbody td {
+        padding-right: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>Population</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tallinn</td>
+          <td>440000</td>
+        </tr>
+
+        <tr>
+          <td>Tartu</td>
+          <td>91000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Totals</th>
+          <td>531000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr style="background-color: antiquewhite; border: none; height: 2px" />
+
+    <table class="skills" cellspacing="10">
+      <thead>
+        <th colspan="2">SKILLS</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>iOS Development</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Photography</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Painting</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
