@@ -56,13 +56,13 @@ h3 {
 }
 
 .profile-description {
-  width: 50%;
+  width: 30%;
   line-height: 2;
   margin: auto;
 }
 
 .skill-row {
-  width: 50%;
+  width: 32%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
@@ -100,12 +100,13 @@ h3 {
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 15px;
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
   color: #ffffff;
-  padding: 0.3em 0.9em;
+  font-family: "Merriweather", serif;
   text-decoration: none;
+  padding: 0.6em 1.3em;
 }
 
 .btn:hover {
@@ -127,7 +128,12 @@ h3 {
   margin-bottom: 1em;
 }
 
-.name {
+.footer-link:hover {
+  color: white;
+  font-family: "Merriweather", serif;
+}
+
+.copyright {
   margin-bottom: 0;
   color: #eaf6f6;
   font-size: 0.8rem;
