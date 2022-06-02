@@ -1,0 +1,45 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-top {
+  margin-bottom: 4em;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 0.6em;
+}
+
+/* .apple-btn {
+  margin-right: 0.6em;
+}
+
+.apple-btn:hover {
+  background-color: rgb(85, 84, 84);
+}
+
+.apple-logo {
+  padding-right: 0.3em;
+}
+
+.android-btn {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.android-btn:hover {
+  color: white;
+  background-color: #c24658;
+}
+
+.google-play-logo {
+  padding-right: 0.3em;
+} */
