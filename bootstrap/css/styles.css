@@ -1,5 +1,11 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 #title {
   background-color: #ff4c68;
+  color: white;
+  /* margin-bottom: 4em; */
 }
 
 .container-fluid {
@@ -12,34 +18,64 @@
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 3.6rem;
   line-height: 1.5;
   font-weight: 900;
   margin-bottom: 0.6em;
 }
 
-/* .apple-btn {
-  margin-right: 0.6em;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-.apple-btn:hover {
-  background-color: rgb(85, 84, 84);
+/* Navigation */
+.navbar {
+  padding: 0 0 4rem;
 }
 
-.apple-logo {
-  padding-right: 0.3em;
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-.android-btn {
-  color: white;
-  background-color: #ff4c68;
+.nav-item {
+  padding: 0 12px;
 }
 
-.android-btn:hover {
-  color: white;
-  background-color: #c24658;
+.nav-link {
+  font-size: 1.3rem;
 }
 
-.google-play-logo {
-  padding-right: 0.3em;
-} */
+.download-btn {
+  margin-right: 1em;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(15deg);
+}
+
+#features {
+  padding: 8% 16%;
+}
+
+#features i {
+  color: #ef8172;
+  margin-bottom: 0.3em;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features p {
+  color: #bfbfbf;
+}
+
+.advantages {
+  text-align: center;
+  padding: 5%;
+}
