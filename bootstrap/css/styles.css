@@ -114,3 +114,12 @@ h3 {
   width: 15%;
   margin: 20px 16px 30px;
 }
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
