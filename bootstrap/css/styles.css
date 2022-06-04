@@ -5,11 +5,10 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
-  /* margin-bottom: 4em; */
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 6% 15%;
 }
 
 .title-top {
@@ -61,12 +60,17 @@ h3 {
 }
 
 .title-img {
-  width: 60%;
+  width: 30%;
+  position: absolute;
+  right: 20%;
   transform: rotate(15deg);
 }
 
 #features {
   padding: 8% 16%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 #features i {
