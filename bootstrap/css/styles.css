@@ -60,7 +60,7 @@ h3 {
 }
 
 .title-img {
-  width: 30%;
+  width: 20%;
   position: absolute;
   right: 20%;
   transform: rotate(15deg);
@@ -126,4 +126,14 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
 }
