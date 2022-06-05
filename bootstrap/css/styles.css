@@ -143,6 +143,15 @@ h3 {
   line-height: 1.5;
 }
 
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #ff4c68;
+}
+
 .social-icon {
   margin: 6px 9px;
 }
@@ -152,6 +161,7 @@ h3 {
     text-align: center;
   }
   .title-img {
+    width: 60%;
     position: static;
     transform: rotate(0);
   }
