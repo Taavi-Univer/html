@@ -56,7 +56,7 @@ h3 {
 }
 
 .download-btn {
-  margin-right: 1em;
+  margin: 1em;
 }
 
 .title-img {
@@ -67,7 +67,7 @@ h3 {
 }
 
 #features {
-  padding: 8% 16%;
+  padding: 6% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
@@ -92,7 +92,7 @@ h3 {
 }
 
 #testimonials {
-  padding: 8% 16%;
+  padding: 6% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -126,6 +126,28 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 6% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 6% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 6px 9px;
 }
 
 @media (max-width: 1028px) {
